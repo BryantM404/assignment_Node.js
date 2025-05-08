@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic MIS</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="header">
+        <h3>Academic Management Infomation System (MIS)</h3>
+    </div>
+    <div class="container">
+      <div class="sidebar">
+        <div class="home"><a href="/home">Home</a></div>
+        <div class="dosen"><a href="/dosen">Dosen</a></div>
+        <div class="mahasiswa"><a href="/mahasiswa">Mahasiswa</a></div>
+      </div>
+      <div class="content">
+          <div class="row">
+              <h1>Insert Dosen</h1>
+          </div>
+          <div class="row">
+              <form method="" action="">
+                  <div class="form-group">
+                    <label for="nik">NIK</label>
+                    <input type="text" class="form-control" name="nik" id="nik" placeholder="e.g. 720001" required autofocues maxlength="7"/>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="e.g. John Doe" required/>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="birth_date">Birth Date</label>
+                    <input type="date" class="form-control" name="birth_date" id="birth_date" required/>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="e.g. johndoe@email.com" required/>
+                  </div>
+
+                  <div class="card-action">
+                      <input type="submit" class="submit">
+                      <input type="reset" value="Cancel" class="reset">
+                    </div>
+                  </div>
+              </form>
+              &copy; 2372055 Bryant Marvel Lim
+            </div>
+        </div>
+    </div>
+</body>
+</html>

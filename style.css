@@ -1,0 +1,91 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
+}
+
+.header{
+    padding: 20px;
+    background-color: lightgray;
+    position: sticky;
+    top:0;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.sidebar{
+    width: 12%;
+    height: 100vh;
+    background-color: black;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.content{
+    width: 88%;
+    height: 100%;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.sidebar div{
+    padding: 10px;
+}
+
+.sidebar div a{
+    color: white;
+    text-decoration: none;
+}
+
+.row{
+    margin-bottom: 20px;
+}
+
+table{
+    border: 1px solid black;
+}
+
+
+th{
+    padding: 0 30px;
+    border: 1px solid black;
+}
+
+td{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.edit, .delete, .insert, .submit, .reset{
+    padding: 10px;
+    color: white;
+    text-decoration:none;
+    border-radius: 10%;
+}
+
+.insert, .submit{
+    background-color: rgb(8, 145, 245);
+}
+
+.edit{
+    background-color: rgb(233, 213, 2);
+}
+
+.delete, .reset{
+    background-color: red;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    padding:5px;
+}
+
+input, .card-action, select{
+    padding: 10px;
+}
